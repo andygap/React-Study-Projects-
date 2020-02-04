@@ -28,15 +28,21 @@ li.dev-item header {
     align-items: center;
 }
 
+.style-content{
+    display: flex;
+    flex-direction:column;
+    padding-left: 20px;
+}
+
 li.dev-item header img {
     width: 54px;
     height: 54px;
     border-radius: 50%;
 }
 
-li.dev-item header .user-info {
+/* li.dev-item header .user-info {
     margin-left: 10px;
-}
+} */
 
 .user-info strong {
     display: block !important;
@@ -63,6 +69,6 @@ li.dev-item a {
     text-decoration: none;
 }
 
-li.dev-item a :hover {
+li.dev-item a:hover {
     color: #5a2ea6;
 }

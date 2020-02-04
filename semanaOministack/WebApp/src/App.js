@@ -2,7 +2,7 @@ import React from 'react';
 import './global.css';
 import './app.css';
 import './sidebar.css';
-import '../src/main.css';
+import './main.css';
 function App() {
   return (
     <div id='app'>
@@ -37,47 +37,63 @@ function App() {
       <main>
         <ul>
           <li className='dev-item'>
-            <header>
-              <img src='https://avatars0.githubusercontent.com/u/42256798?s=460&v=4' alt='Anderson' />
-              <div className='user-info'>
-                <strong>Anderson Ferreira</strong>
-                <span>ReactJS, React Native, Node.js</span>
+          <header>
+              <div>
+                <img src='https://avatars0.githubusercontent.com/u/42256798?s=460&v=4' alt='Anderson' />
               </div>
-              <p>Desenvolvedor no Ecad Trabalhando atualmente com tecnologias voltadas para o ReactJS.</p>
-              <a href='https://github.com/andygap'>Acessar perfil no Github</a>
+              <div className = 'style-content'>
+                <div className='user-info'>
+                  <strong>Anderson Ferreira</strong>
+                  <span>ReactJS, React Native, Node.js</span>
+                </div>
+                <p>Desenvolvedor no Ecad Trabalhando atualmente com tecnologias voltadas para o ReactJS.</p>
+                <a href='https://github.com/andygap'>Acessar perfil no Github</a>
+              </div>
+            </header>
+          </li>
+          <li className='dev-item'>
+          <header>
+              <div>
+                <img src='https://avatars0.githubusercontent.com/u/42256798?s=460&v=4' alt='Anderson' />
+              </div>
+              <div className = 'style-content'>
+                <div className='user-info'>
+                  <strong>Anderson Ferreira</strong>
+                  <span>ReactJS, React Native, Node.js</span>
+                </div>
+                <p>Desenvolvedor no Ecad Trabalhando atualmente com tecnologias voltadas para o ReactJS.</p>
+                <a href='https://github.com/andygap'>Acessar perfil no Github</a>
+              </div>
             </header>
           </li>
           <li className='dev-item'>
             <header>
-              <img src='https://avatars0.githubusercontent.com/u/42256798?s=460&v=4' alt='Anderson' />
-              <div className='user-info'>
-                <strong>Anderson Ferreira</strong>
-                <span>ReactJS, React Native, Node.js</span>
+              <div>
+                <img src='https://avatars0.githubusercontent.com/u/42256798?s=460&v=4' alt='Anderson' />
               </div>
-              <p>Desenvolvedor no Ecad Trabalhando atualmente com tecnologias voltadas para o ReactJS.</p>
-              <a href='https://github.com/andygap'>Acessar perfil no Github</a>
+              <div className = 'style-content'>
+                <div className='user-info'>
+                  <strong>Anderson Ferreira</strong>
+                  <span>ReactJS, React Native, Node.js</span>
+                </div>
+                <p>Desenvolvedor no Ecad Trabalhando atualmente com tecnologias voltadas para o ReactJS.</p>
+                <a href='https://github.com/andygap'>Acessar perfil no Github</a>
+              </div>
             </header>
           </li>
           <li className='dev-item'>
-            <header>
-              <img src='https://avatars0.githubusercontent.com/u/42256798?s=460&v=4' alt='Anderson' />
-              <div className='user-info'>
-                <strong>Anderson Ferreira</strong>
-                <span>ReactJS, React Native, Node.js</span>
+          <header>
+              <div>
+                <img src='https://avatars0.githubusercontent.com/u/42256798?s=460&v=4' alt='Anderson' />
               </div>
-              <p>Desenvolvedor no Ecad Trabalhando atualmente com tecnologias voltadas para o ReactJS.</p>
-              <a href='https://github.com/andygap'>Acessar perfil no Github</a>
-            </header>
-          </li>
-          <li className='dev-item'>
-            <header>
-              <img src='https://avatars0.githubusercontent.com/u/42256798?s=460&v=4' alt='Anderson' />
-              <div className='user-info'>
-                <strong>Anderson Ferreira</strong>
-                <span>ReactJS, React Native, Node.js</span>
+              <div className = 'style-content'>
+                <div className='user-info'>
+                  <strong>Anderson Ferreira</strong>
+                  <span>ReactJS, React Native, Node.js</span>
+                </div>
+                <p>Desenvolvedor no Ecad Trabalhando atualmente com tecnologias voltadas para o ReactJS.</p>
+                <a href='https://github.com/andygap'>Acessar perfil no Github</a>
               </div>
-              <p>Desenvolvedor no Ecad Trabalhando atualmente com tecnologias voltadas para o ReactJS.</p>
-              <a href='https://github.com/andygap'>Acessar perfil no Github</a>
             </header>
           </li>
         </ul>
