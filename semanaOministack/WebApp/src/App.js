@@ -1,8 +1,8 @@
 import React from 'react';
 import './global.css';
 import './app.css';
-import './Sidebar.css';
-import './Main.css';
+import './sidebar.css';
+import '../src/main.css';
 function App() {
   return (
     <div id='app'>
